@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+     <!-- Meta tags Obrigatórias -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+     <link rel="stylesheet" href="css/meucss.css">
+
+    <title>Pague Pegue</title>
+  </head>
+  <body>
+
+    <!-- Início da barra de navegação -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <nav class="navbar font-weight-bold font-italic" id="inicio"> 
+            Pegue Pague
+          </nav>
+        </div>
+
+        <div class="col-sm-9">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Promoções</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Caminho</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ajuda</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Fim da barra de navegação -->
+
+
+      <!-- Início do Carousel -->
+
+      <div class="row">
+        <div class="col-sm">
+          <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="img-fluid d-block w-100" data-src=".../800x400?auto=yes&bg=777&fg=555&text=Primeiro Slide" 
+                src="img/img1.jpg" alt="Primeiro Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid d-block w-100" data-src=".../800x400?auto=yes&bg=777&fg=555&text=Segundo Slide" src="img/img2.jpg" alt="Segundo Slide">
+              </div>
+              <div class="carousel-item">
+                <img class="img-fluid d-block w-100" src="img/img3.jpg" alt="Terceiro Slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fim do Carousel -->
+
+
+      <!-- Início dos cards -->
+
+      <div class="row m-3">
+        <div class="col-sm">
+
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/img5.jpg" alt="Imagem de capa do card" id="img5">
+            <div class="card-body">
+              <p class="card-text">
+                Computador Cpu Gamer Completo <br>
+                Amd A4 6300 +monitor 17 + Wifi</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm">
+
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/img4.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+              <p class="card-text">Celular smartphone</p>
+              <p class="card-text">64GB</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-sm">
+
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/img6.jpg" alt="Imagem de capa do card" id="img6">
+            <div class="card-body">
+              <p class="card-text">
+                Tablet Samsung Galaxy Tab <br>
+                A 32GB 10,1” Wi-Fi  <br>
+                Android 9.1 Octa Core </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Fim dos cards -->
+
+
+      <!-- Inicio do formulário -->
+
+      <div class="row">
+        <div class="col-sm text-uppercase font-weight-bold m-3" id="cadastro">Cadastre-se!</div>
+      </div>
+
+          <form action="get">
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <input type="text" class="form-control" id="nome" placeholder="">
+            </div>
+
+            <div class="form-group">
+              <label for="password">Senha</label>
+              <input type="password" class="form-control" id="senha" placeholder="">
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="mail" class="form-control" id="email" placeholder="">
+            </div>
+
+            <div class="form-group">
+              <label for="adress">Endereço</label>
+              <input type="text" class="form-control" id="endereço" placeholder="">
+            </div>
+
+            <div class="form-group">
+              <label for="cpf">CPF</label>
+              <input type="text" class="form-control" id="cpf" placeholder="">
+            </div>
+
+            <label for="Sexo">Sexo:</label>
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="genero" id="gender" value="opcao1">
+              <label class="form-check-label" for="gender">Masculino</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="genero" id="gender" value="opcao2">
+              <label class="form-check-label" for="gender">Feminino</label>
+            </div>
+
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="genero" id="gender" value="opcao3">
+              <label class="form-check-label" for="gender">Outro</label>
+            </div>
+
+
+            <select class="form-control">
+              <option>Acre</option>
+              <option>São Paulo</option>
+              <option>Rio de Janeiro</option>
+              <option>Santos</option>
+              <option>Goiás</option>
+              <option>Brasília</option>
+            </select>
+
+            <button type="submit" class="btn btn-seondary m-3">Cadastro</button>
+          </form>
+
+      </div>
+
+      <!-- Fim do formulário -->
+
+    </div>
+  
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
